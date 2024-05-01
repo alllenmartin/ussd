@@ -21,7 +21,11 @@ def core(request):
 			response += "3. Just Checking in"
 
 		elif text == "1":
-			response = f'END Your Phone Number is {phone_number} \n'
+			mynumbers = {
+				'First':'999999',
+				'secon': {phone_number}
+			}
+			response = f'END {mynumbers} \n'
 
 		elif text == "2":
 			response = "END pwaveinoc@gmail.com \n"
@@ -30,3 +34,4 @@ def core(request):
 			response = "END Thank you for checking in \n"
 
 		return HttpResponse(response)
+		
