@@ -24,6 +24,7 @@ def core(request):
 			mynumbers = {
 				'First':'999999',
 				'secon': {phone_number}
+				
 			}
 			response = f'END {mynumbers} \n'
 
